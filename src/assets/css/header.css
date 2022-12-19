@@ -1,0 +1,249 @@
+.right-aligned{
+    width: 100%;
+    height: 35px;
+    text-align: right;
+    background: #f1f1f1;
+    padding-right: 35px;
+}
+.right-aligned a{
+    padding: 0 10px;
+    color: #04529e !important;
+    text-decoration: none;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.header-bottom{
+    position: relative;
+    padding: 0 40px;
+    width: 100%;
+    height: 55px;
+    background: #df0000;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 5px solid #ccc;
+}
+.header-left{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.header-left .bar-icon{
+    color: white;
+    font-size: 30px;
+}
+.header-left .header-left-logo img{
+    padding-left: 50px;
+    height: 50px;
+}
+
+.header-middle{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-middle input{
+    height: 40px;
+    width: 60%;
+    border-radius: 25px 0 0 25px;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+}
+.header-middle button{
+    height: 40px;
+    border-radius: 0 25px 25px 0;
+    border: none;
+    outline: none;
+}
+.header-middle button .search-btn{
+    color: #675656 !important;
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.header-right{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.header-right .cart-img{
+    height: 40px;
+}
+.cart-item-count{
+    width: 24px;
+    height: 24px;
+    background: #ffec00;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    margin-top: -25px;
+}
+.header-right span{
+    padding-left: 20px;
+    color: white;
+    font-weight: bold;
+}
+.a-stick{
+    height: 28px;
+    width: 2px;
+    background: white;
+    margin: 0 20px;
+}
+.right-angle{
+    font-size: 30px;
+    color: white;
+    font-weight: lighter;
+}
+.profile-img{
+    height: 35px;
+}
+.sidebar-left-top{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 20%;
+    height: calc(100vh - 210px);
+    overflow: hidden;
+    overflow-y: scroll;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.sidebar-left{
+    width: 100%;
+    padding: 0 10px;
+}
+.sidebar-left-top::-webkit-scrollbar{
+    width: 3px;
+    height: 20px;
+}
+.sidebar-left-top::-webkit-scrollbar-thumb {
+  background-color: rgb(196, 194, 194);
+  outline: 1px solid slategrey;
+}
+.sidebar-left a{
+    text-decoration: none;
+    color: #333 !important;
+    position: relative;
+}
+.side-bar-link{
+    border-bottom: .1px solid rgb(234, 225, 225);
+}
+.custom-icon{
+    font-size: 40px;
+    padding-right: 15px;
+    color: black !important;
+}
+.side-right-arrow{
+    position: absolute;
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(151, 143, 143) !important;
+    right: 7px;
+    top: 50%;
+    transform: translateY(-60%);
+}
+
+.sidebar-left-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: 120px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+/* footer css */
+.footer{
+    width: 100%;
+    margin-top: 30px;
+    border-top: 1px solid rgb(224, 219, 219);
+}
+.footer-top{
+    background: #f6f6f6;
+    padding: 10px 150px 10px 0;
+}
+.footer-top ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top ul li{
+    list-style-type: none;
+}
+.footer-top ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+.footer-middle{
+    background: #f6f6f6;
+    padding: 0 150px 10px 30px;
+}
+.footer-middle .popular-search ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.footer-middle .popular-search ul li{
+    list-style-type: none;
+    font-size: 12px;
+}
+.footer-middle .popular-search ul li a{
+    text-decoration: none;
+    color: #666;
+}
+.footer-middle .popular-search ul li span{
+    padding: 0 10px;
+}
+.footer-bottom{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+.footer-bottom .footer-social{
+    margin-left: auto;
+}
+.footer-bottom .footer-social a{
+    border: 1px solid black;
+    margin: 0 5px;
+    border-radius: 50%;
+    color: black !important;
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+.link-fa{
+    background: #3b5998;
+    color: white !important;
+}
+.link-in{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);;
+}
+.link-yo{
+    background: #FF0000;    
+}
